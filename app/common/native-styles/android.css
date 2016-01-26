@@ -64,10 +64,24 @@ tab-bar-item#settings {
   background-image: url(icons/cog.svg);
 }
 
-tab-bar-item#index {
+tab-bar-item#home {
   background-image: url(icons/home.svg);
 }
 
-tab-bar-item#internet {
+tab-bar-item#help {
   background-image: url(icons/search.svg);
+}
+
+/* Custom Native Navbar Button */
+.main-nav button {
+    color: #000000;
+    font-weight: 300;
+    margin-left: 6px;
+    margin-right: 6px;
+
+    background-image: url(/icons/bars.png);
+    //background-size: cover;
+    background-repeat: no-repeat;
+
+    //content: "\f128";
 }

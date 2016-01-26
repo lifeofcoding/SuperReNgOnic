@@ -38,10 +38,24 @@ tab-bar-item#settings {
   background-image: url(icons/cog.svg);
 }
 
-tab-bar-item#index {
+tab-bar-item#home {
   background-image: url(icons/home.svg);
 }
 
-tab-bar-item#internet {
+tab-bar-item#help {
   background-image: url(icons/search.svg);
+}
+
+/* Custom Native Navbar Button */
+.main-nav button {
+    color: #ffffff;
+    font-weight: 300;
+
+    //background-image: url(icons/bars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    display: inline-block;
+    margin-top: -80px;
 }

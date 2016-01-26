@@ -1,0 +1,57 @@
+<div class="padding" ng-controller="MainController as mainCtrl">
+    <super-navbar class="main-nav">
+        <super-navbar-button side="left" id="nav-btn" ng-click="mainCtrl.showDrawer()">&nbsp;</super-navbar-button>
+        <super-navbar-title></super-navbar-title>
+    </super-navbar>
+
+    <h3>User Settings</h3>
+
+    <p></p>
+
+    <ul class="list">
+        <li class="item item-toggle">
+            HTML5
+            <label class="toggle toggle-assertive">
+            <input type="checkbox">
+            <div class="track">
+            <div class="handle"></div>
+            </div>
+            </label>
+        </li>
+
+        <li class="item item-toggle">
+            CoffeeScript
+            <label class="toggle toggle-royal">
+            <input type="checkbox">
+            <div class="track">
+            <div class="handle"></div>
+            </div>
+            </label>
+        </li>
+
+        <li class="item item-toggle">
+            SASS
+            <label class="toggle toggle-balanced">
+            <input type="checkbox">
+            <div class="track">
+            <div class="handle"></div>
+            </div>
+            </label>
+        </li>
+
+        <li class="item item-toggle">
+            Native performance
+            <label class="toggle toggle-calm">
+            <input type="checkbox">
+            <div class="track">
+            <div class="handle"></div>
+            </div>
+            </label>
+        </li>
+    </ul>
+
+    <super-navigate location="main#table">
+    <button class="button button-block button-positive icon-left super-university">Continue</button>
+    </super-navigate>
+
+</div>

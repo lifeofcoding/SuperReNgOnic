@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="/components/supersonic/css/supersonic.css" />
   <link rel="stylesheet" href="/app/common/stylesheets/application.css" />
+  <link rel="stylesheet" href="/components/angular-material/angular-material.css" />
   <link rel="import" href="/components/supersonic/components/import.html">
 
   <script src="http://localhost/cordova.js"></script>
@@ -15,6 +16,14 @@
   <script src="/components/angular/angular.js"></script>
   <script src="/components/supersonic/supersonic.js"></script>
   <script src="/components/webcomponentsjs/webcomponents.js"></script>
+  <script src="/components/lodash/lodash.js"></script>
+  <script src="/components/react/react.js"></script>
+  <script src="/components/react/react-dom.js"></script>
+  <script src="/components/ngReact/ngReact.js"></script>
+  <script src="/components/angular-material/angular-material.js"></script>
+  <script src="/components/angular-aria/angular-aria.js"></script>
+  <script src="/components/angular-animate/angular-animate.js"></script>
+  <script src="/app/components.js"></script>
 
   <% _.each(yield.modules, function(module) { %>
   <script src="/app/<%= module %>.js"></script>

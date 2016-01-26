@@ -1,4 +1,7 @@
-angular.module('example', [
+angular.module('main', [
   // Declare here all AngularJS dependencies that are shared by the example module.
-  'supersonic'
+  'supersonic',
+  'react',
+  'ngAria',
+  'ngMaterial'
 ]);

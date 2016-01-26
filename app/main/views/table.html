@@ -1,0 +1,48 @@
+<super-navbar>
+  <super-navbar-title>
+    React Table Test
+  </super-navbar-title>
+</super-navbar>
+
+<div class="padding" ng-controller="TableController as tableCtrl">
+    <form class="pure-form" ng-submit="tableCtrl.newName(tableCtrl.person)">
+        <md-input-container class="md-block" flex-gt-sm>
+            <label>First name</label>
+            <input type="text" ng-model="tableCtrl.person.name"/>
+          </md-input-container>
+
+          <md-input-container class="md-block" flex-gt-sm>
+              <label>Rows</label>
+              <input type="number" ng-model="tableCtrl.model.rows">
+            </md-input-container>
+
+        <md-button type="submit" class="md-raised md-primary">Update</md-button>
+    </form>
+
+    <div class="header">
+        <div><react-table model="tableCtrl.model"/></div>
+    </div>
+
+
+    <form class="pure-form" ng-submit="tableCtrl.newName(tableCtrl.person)">
+        <md-input-container class="md-block" flex-gt-sm>
+            <label>First name</label>
+            <input type="text" ng-model="tableCtrl.person.name"/>
+          </md-input-container>
+
+          <md-input-container class="md-block" flex-gt-sm>
+              <label>Rows</label>
+              <input type="number" ng-model="tableCtrl.model.rows">
+            </md-input-container>
+
+        <md-button type="submit" class="md-raised md-primary">Update</md-button>
+    </form>
+
+    <hr>
+    <div>
+        <p>
+            <md-button ng-click="tableCtrl.shuffleData()" class="md-raised md-primary">Shuffle Data</md-button>
+        </p>
+    </div>
+  </div>
+</div>

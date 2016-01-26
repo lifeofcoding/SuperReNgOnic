@@ -1,5 +1,5 @@
 angular
-  .module('example')
+  .module('main')
   .controller('SettingsController', function($scope, supersonic) {
     $scope.navbarTitle = "Settings";
   });
